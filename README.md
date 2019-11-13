@@ -1,1 +1,2 @@
-# new-ruby
+greeting = "HelloWorld"
+puts greeting
