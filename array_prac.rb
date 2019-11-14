@@ -1,14 +1,10 @@
-array  = [1,2,3,4]
-array[4] = "e"
+scores = [30,10,30,40,50,60,70]
 
-p array
+puts scores[0]
 
-array.push("f")
-p array
+scores.each do |score|
+    puts score
+end
 
-
-array << 'hoge'
-p array
-
-
-p array[0]
+messeage = ["おはようございます","こんにちは","こんばんは"]
+puts messeage[2]
